@@ -61,11 +61,11 @@ A concrete checklist of how to verify this PR works correctly. Include:
 
 ## Step 4 — Write the file
 
-Determine the output filename from the branch name:
+Determine the output path from the branch name:
 - Take the current branch name from Step 1
 - Replace any `/` or special characters with `_`
 - File name format: `pr_<branch>.md`
-- Write the file to the current working directory
+- Write the file to the `docs/` directory, creating it if it does not exist
 
 Write the full markdown file with this structure:
 
