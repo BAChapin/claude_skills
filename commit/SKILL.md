@@ -1,7 +1,6 @@
 ---
 name: commit
 description: Stage and commit changes using the structured diff-style commit message standard
-disable-model-invocation: true
 ---
 
 Stage and commit the current changes following the commit message standard below.
