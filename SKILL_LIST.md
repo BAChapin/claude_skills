@@ -7,3 +7,4 @@
 | work-review | `/work-review` | Review branch changes against optional requirements, then perform a senior-level code review with findings written to docs/review_<branch>.md |
 | boyscout | `/boyscout` | Clean up files touched by the current branch — fix DRY violations, performance issues, and minor improvements without changing structure or behavior |
 | soft-review | `/soft-review` | Last-minute pre-PR check — summarizes branch changes, validates against a goal if provided, flags performance/security/breaking concerns, and runs tests |
+| api-documentation | `/api-documentation` | Create or update API_DOCUMENTATION.md using the project's established format and style |
